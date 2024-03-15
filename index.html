@@ -75,7 +75,7 @@
       <section>
         <h1 class="text-xl font-bold text-center">Best offers for you</h1>
         <div class="mt-20">
-          <div class="flex justify-center gap-10 border-[2px] border-red-500">
+          <div class="flex justify-center gap-10">
             <div
               class="bg-[#FFBF0F] rounded-lg w-2/5 h-48 flex gap-5 justify-center items-center"
             >
@@ -114,7 +114,7 @@
       </section>
       <!-- set boking  -->
       <section>
-       <div class="border-[2px] border-[#1DD100] rounded-3xl w-full bg-[#F7F8F8] mt-3">
+       <div class="border-t [2px] border-[#1DD100] rounded-3xl w-full bg-[#F7F8F8] mt-3">
         <h1 class="text-center text-2xl font-bold mt-20">P.H Paribahan</h1>
         <p class="text-center mt-5">
           Yes, you can run unit tests and view the results directly within the
@@ -127,20 +127,26 @@
             <div class="mt-3">
               <h1 class="text-1xl font-extrabold mr-40">
                 <img
-                  class="w-8 float-start mt"
+                  class="w-8 float-start"
                   src="images/bus-logo.png"
                   alt=""
                 />
                 Greenline Paribahan
               </h1>
+              <p class="text-xs ml-5 mt-1">Coach-009-WEB ! AC_Busines</p>
+              <h1  class=" mt-4 text-xs">Route</h1>
+              <h1 class="text-xs mt-4">Departure Tim</h1>
             </div>
             <div class="mt-3">
               <button id="" class="btn btn-outline btn-success">
                 <img class="float-start" src="images/seat-green.png" alt="" />
                 <span id="seat-left">40</span> Seats left
               </button>
+              <div class=" mt-5">
+                <h1 class="ml-4 font-bold">Dhaka - Sylhet</h1>
+                <h1 class="ml-10 font-bold mt-3">9:00 PM</h1>
+              </div> 
             </div>
-
             <img src="images/info-devider.png" alt="" />
             <div class="mt-20">
               <img class="ml-10" src="images/fare.png" alt="" />
@@ -152,7 +158,7 @@
       </section>
       <!-- set boking 2 -->
       <section class="mt-10 min-h-scree">
-        <div class="flex justify-around border-[2px] border-[#1DD100] rounded-3xl w-full bg-[#F7F8F8]">
+        <div class="flex justify-around border-t [2px] rounded-3xl w-full bg-[#F7F8F8]">
           <div class="w-1/2 border-r-lime-600">
             <h1 class="font-bold mt-5">Select Your Seat</h1>
             <h1 id="Available" class="mt-5">
@@ -259,11 +265,6 @@
             <div id="Selected-div" class="grid grid-cols-3 mt-10 gap-10">
             
             </div>
-            <div class="grid grid-cols-3 mt-10 gap-10">
-              <!-- <h1>C2</h1>
-              <h1>Economoy</h1>
-              <h1>550</h1> -->
-            </div>
             <br />
             <hr />
             <br />
@@ -288,7 +289,7 @@
               <h1 class="font-bold mt-2">Phone Number*</h1>
               <label class="input input-bordered flex items-center gap-2 mt-3">
                 <input
-                  type="text"
+                  type="number"
                   class="grow"
                   placeholder="Enter your phone number"
                 />
@@ -297,7 +298,7 @@
               <h1 class="font-bold mt-2">Email ID</h1>
               <label class="input input-bordered flex items-center gap-2 mt-3">
                 <input
-                  type="text"
+                  type="email"
                   class="grow"
                   placeholder="Enter your email id"
                 />
